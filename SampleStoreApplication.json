@@ -1,0 +1,118 @@
+{
+  "id": 26,
+  "name": "SampleStoreApplication",
+  "uuid": "d11c8289-a77f-4532-9878-34e175579353",
+  "subscriber": {
+    "name": "wso2appdeveloper",
+    "id": 1,
+    "tenantId": 0
+  },
+  "subscribedAPIs": [
+    {
+      "subscriptionId": 23,
+      "tier": {
+        "name": "Unlimited",
+        "displayName": "Unlimited",
+        "requestsPerMin": 0,
+        "requestCount": 0,
+        "unitTime": 0,
+        "timeUnit": "ms",
+        "stopOnQuotaReached": true
+      },
+      "subscriber": {
+        "name": "wso2appdeveloper",
+        "id": 1,
+        "tenantId": 0
+      },
+      "apiId": {
+        "providerName": "wso2apideveloper",
+        "apiName": "PizzaShackAPI",
+        "version": "1.0.0"
+      },
+      "application": {
+        "id": 0,
+        "name": "SampleStoreApplication",
+        "uuid": "d11c8289-a77f-4532-9878-34e175579353",
+        "subscriber": {
+          "name": "wso2appdeveloper",
+          "id": 1,
+          "tenantId": 0
+        },
+        "subscribedAPIs": [],
+        "keys": [],
+        "oauthApps": {},
+        "applicationAttributes": {},
+        "subscriptionCount": 0
+      },
+      "subStatus": "UNBLOCKED",
+      "subCreatedStatus": "SUBSCRIBE",
+      "keys": [],
+      "uuid": "81f4b87d-dbdc-478b-82fd-5f9c8c0b1b53",
+      "isBlocked": false
+    },
+    {
+      "subscriptionId": 27,
+      "tier": {
+        "name": "Bronze",
+        "displayName": "Bronze",
+        "requestsPerMin": 0,
+        "requestCount": 0,
+        "unitTime": 0,
+        "timeUnit": "ms",
+        "stopOnQuotaReached": true
+      },
+      "subscriber": {
+        "name": "wso2appdeveloper",
+        "id": 1,
+        "tenantId": 0
+      },
+      "apiId": {
+        "providerName": "wso2apideveloper",
+        "apiName": "SampleStore",
+        "version": "1.0.0"
+      },
+      "application": {
+        "id": 0,
+        "name": "SampleStoreApplication",
+        "uuid": "d11c8289-a77f-4532-9878-34e175579353",
+        "subscriber": {
+          "name": "wso2appdeveloper",
+          "id": 1,
+          "tenantId": 0
+        },
+        "subscribedAPIs": [],
+        "keys": [],
+        "oauthApps": {},
+        "applicationAttributes": {},
+        "subscriptionCount": 0
+      },
+      "subStatus": "UNBLOCKED",
+      "subCreatedStatus": "SUBSCRIBE",
+      "keys": [],
+      "uuid": "5ec48e15-557a-4f60-8798-21fb5f4e05d6",
+      "isBlocked": false
+    }
+  ],
+  "keys": [],
+  "oauthApps": {
+    "PRODUCTION": {
+      "clientId": "npipopuogFKtG3alcYf1L_yho7Ia",
+      "clientSecret": "NlR1Vm1SSmw4VWFSSTF3eG5jWmdDSTlHMjNJYQ\u003d\u003d",
+      "parameters": {
+        "grant_types": "refresh_token urn:ietf:params:oauth:grant-type:saml2-bearer password client_credentials iwa:ntlm urn:ietf:params:oauth:grant-type:jwt-bearer",
+        "redirect_uris": {},
+        "client_name": "wso2appdeveloper_SampleStoreApplication_PRODUCTION"
+      },
+      "isSaasApplication": false,
+      "appAttributes": {}
+    }
+  },
+  "tier": "10PerMin",
+  "description": "",
+  "status": "APPROVED",
+  "groupId": "",
+  "owner": "wso2appdeveloper",
+  "applicationAttributes": {},
+  "tokenType": "JWT",
+  "subscriptionCount": 0
+}
