@@ -6,6 +6,7 @@ pipeline {
         API_DIR = './SampleStore'
         DEV_ENV = 'dev'
         PROD_ENV = 'prod'
+        PRODD_ENVS = 'prodd'
         TEST_SCRIPT_FILE = 'sample.store.dev.postman_collection.json'        
     }
     stages {
